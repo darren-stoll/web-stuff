@@ -160,6 +160,7 @@ const TwitchClipper = () => {
     <div className="clipBody">
       <NavbarProj />
       <div id="clipBody" className="clipContainer">
+        <p>Currently not functional, as it requires a key refresh every few months that I have no desire to renew at the moment.</p>
         <SearchForm searchTerm={searchTerm} setSearchTerm={setSearchTerm} setUrl={setUrl} />
         {clips.isLoading ? (
           <div style={{color:'white'}}>Loading ...</div>
