@@ -32,12 +32,12 @@ const MainPage = () => {
 
   const clipValues = {
     svg: <img src={twitchLogo} height="64" alt="" />,
-    info: <><p><b>!!UNDER CONSTRUCTION!!</b></p><p>This is a page that connect to Twitch.tv's API and retrieves 20 clips per request based on the username entered.</p><p>For this site, I used the following:</p><ul><li>React</li><li>Axios (for REST API)</li></ul></>
+    info: <><p><b>Work on this has ceased.</b></p><p>This is a page that connect to Twitch.tv's API and retrieves 20 clips per request based on the username entered.</p><p>For this site, I used the following:</p><ul><li>React</li><li>Axios (for REST API)</li></ul></>
   }
 
   const covidValues = {
     svg: <img src={covidIcon} height="64" alt="" />,
-    info: <><p><b>!!UNDER CONSTRUCTION!!</b></p><p>I built this page at the request of a client who wants to display various data for COVID-19 in the United States, including mortality and infection rates.</p><p>For this site, I used the following:</p><ul><li>React</li><li>Axios (for content retrieval)</li><li>react-usa-map (for the interactive map)</li></ul></>
+    info: <><p>I built this page at the request of a client who wants to display various data for COVID-19 in the United States, including mortality and infection rates.</p><p>For this site, I used the following:</p><ul><li>React</li><li>Axios (for content retrieval)</li><li>react-usa-map (for the interactive map)</li></ul></>
   }
 
   return (
