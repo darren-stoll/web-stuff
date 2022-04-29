@@ -258,7 +258,7 @@ h3 {
 }
 
 /* For Mobile devices */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 720px) {
   main.main {
     display: flex;
     flex-direction: column;

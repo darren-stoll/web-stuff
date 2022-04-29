@@ -4,9 +4,7 @@ import { Route, Switch } from 'react-router-dom'
 
 // Importing components
 import MainPage from './components/MainPage.js';
-import MarkdownPreview from './components/MarkdownPreview.js';
 import PomodoroClock from './components/PomodoroClock.js';
-import SearchPage from './components/SearchPage.js';
 import MedOfficeTemplate from './components/MedOfficeTemplate.js';
 import TwitchClipper from './components/TwitchClipper.js';
 import ScrollToTop from './components/ScrollToTop.js';
@@ -19,9 +17,7 @@ function App() {
     <Switch>
       <ScrollToTop>
         <Route exact path="/" component={MainPage} />
-        <Route path="/MarkdownPreview" component={MarkdownPreview} />
         <Route path="/PomodoroClock" component={PomodoroClock} />
-        <Route path="/SearchPage" component={SearchPage} />
         <Route path="/MedOfficeTemplate" component={MedOfficeTemplate} />
         <Route path="/TwitchClipper" component={TwitchClipper} />
       </ScrollToTop>
