@@ -61,7 +61,7 @@ const MainPage = () => {
         <section id="project-section" className="hidden" name="project-section">
           <h2>Projects</h2>
           <div id="projects" name="projects">
-            <ProjectTile name="Mood Tracker" icon={moodValues.svg} link="https://mood-tracker-rouge.vercel.app/" target="moodModal" info={moodValues.info} />
+            <ProjectTile name="Mood Tracker" icon={moodValues.svg} link="https://mood-tracker-darren-stoll.vercel.app/" target="moodModal" info={moodValues.info} />
             <ProjectTile name="COVID19 Watch" icon={covidValues.svg} link="https://jlc42.github.io/" target="covidModal" info={covidValues.info} /> 
             <ProjectTile name="Twitch Clipper" icon={clipValues.svg} link="/TwitchClipper" target="clipModal" info={clipValues.info} />
             <ProjectTile name="Pomodoro Clock" icon={pomoValues.svg} link="/PomodoroClock" target="pomoModal" info={pomoValues.info} />
